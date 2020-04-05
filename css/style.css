@@ -69,9 +69,14 @@ body {
     color: #b9b9b9;
     font-size: 16px;
     line-height: 24px;
-    padding-top: 35px;
-    padding-bottom: 28px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    width: 100%;
     transition: all .3s;
+    cursor: pointer;
 }
 
 .header__menu a:hover {
@@ -87,20 +92,17 @@ body {
    /* display: block; */
     display: none;
 }
+
 .header__menu-btn div {
     background-color: #e8663c;
     height: 5px;
     margin-bottom: 5px;
 }
 
-.slider {
-}
-
-.container {
-}
 .slider__inner {
     position: relative;
 }
+
 .slider__inner::before,
 .slider__inner::after {
     content:"";
@@ -278,7 +280,6 @@ body {
     font-family: 'HelveticaNeue';
 }
 .info__box-link {
-    
     margin-top: 15px;
     width: 56px;
     height: 31px;
