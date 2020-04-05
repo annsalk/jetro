@@ -1,0 +1,157 @@
+
+
+@media(max-width:1000px){
+    .container {
+        padding: 0 20px;
+    }
+
+    
+    .slick-prev,
+    .slick-next {  
+    display: none;
+}
+
+}
+@media(max-width:950px){
+    .works__inner {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .footer__inner {
+        flex-wrap: wrap;
+    }
+
+    .footer__item {
+        width: 100%;
+    }
+
+    .works__item {
+        max-width: 40%;
+        margin-left: 15px;
+        margin-bottom: 15px;
+
+    }
+    .works__item a {
+        display: block;
+    }
+
+    .works__item img {
+        max-width: 100%;
+    }
+
+
+}
+
+@media(max-width:900px){
+    .info__box-inner {
+        flex-wrap: wrap;
+        padding: 0 25px;
+    
+    }
+
+    .info__box-item{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+       
+    .info__box-title {
+    margin-bottom: 15px;
+    }
+
+    .footer__title {
+        
+        margin-bottom: 20px;
+    }
+    
+        
+}
+@media(max-width:699px) {
+    
+
+    .footer__inner {
+        
+        padding-top: 20px;
+        padding-bottom: 15px;
+        padding-left: 17px;
+        padding-right: 22px;
+    }
+
+    .slider__carousel {
+        display: none;
+    }
+
+}
+
+
+
+
+@media(max-width:650px){
+    .header__menu-btn{
+        display: block;
+        margin-top: 10px;
+    }
+
+    .header__menu > ul {
+        display: none;
+        position: absolute;
+        z-index: 2;
+        top: 70px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: grey;
+        border-bottom: 5px solid #e8663c;
+    }
+
+    .header__menu li {
+        display: block;
+        text-align: center;
+    }
+
+    .header__menu li+li {
+        margin-left: 0;
+    }
+
+    .header__menu a {
+        padding: 10px 0 10px;
+        font-weight: 400;
+        display: block;
+        text-transform: none;
+    
+        }
+}
+
+
+
+
+@media(max-width:600px){
+   .works__item {
+        max-width: 100%;
+    }
+}
+
+@media(max-width:530px) {
+    .slider__item-box {
+        left: 0;
+        bottom: 0;
+        max-width: 100%;
+    }
+
+    
+
+}
+@media(max-width:350px) {
+    .slider__item-title {
+        font-size: 14px;
+        margin-bottom: 10px;
+}
+
+
+@media(min-width: 650px){
+    .header__menu > ul {
+        display: block !important;
+
+    }/*необходимо для того чтобы при расширении экрана элементы отображались в меню*/
+}
