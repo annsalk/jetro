@@ -1,17 +1,14 @@
-
-
 @media(max-width:1000px){
     .container {
         padding: 0 20px;
     }
-
     
     .slick-prev,
-    .slick-next {  
-    display: none;
+    .slick-next {
+        display: none;
+    }
 }
 
-}
 @media(max-width:950px){
     .works__inner {
         flex-wrap: wrap;
@@ -32,6 +29,7 @@
         margin-bottom: 15px;
 
     }
+
     .works__item a {
         display: block;
     }
@@ -39,15 +37,12 @@
     .works__item img {
         max-width: 100%;
     }
-
-
 }
 
 @media(max-width:900px){
     .info__box-inner {
         flex-wrap: wrap;
         padding: 0 25px;
-    
     }
 
     .info__box-item{
@@ -55,23 +50,17 @@
         margin-bottom: 40px;
     }
 
-       
     .info__box-title {
     margin-bottom: 15px;
     }
 
     .footer__title {
-        
         margin-bottom: 20px;
-    }
-    
-        
+    }        
 }
-@media(max-width:699px) {
-    
 
+@media(max-width:699px) {
     .footer__inner {
-        
         padding-top: 20px;
         padding-bottom: 15px;
         padding-left: 17px;
@@ -81,11 +70,7 @@
     .slider__carousel {
         display: none;
     }
-
 }
-
-
-
 
 @media(max-width:650px){
     .header__menu-btn{
@@ -121,16 +106,13 @@
 
     .header__menu a:hover {
         color: #e8663c;
-        background-color: rgb(212, 212, 212);
+        background-color: rgb(201, 182, 182);
     }
 
     .header__menu li+li {
         margin-left: 0;
     }
 }
-
-
-
 
 @media(max-width:600px){
    .works__item {
@@ -144,20 +126,17 @@
         bottom: 0;
         max-width: 100%;
     }
-
-    
-
 }
+
 @media(max-width:350px) {
     .slider__item-title {
         font-size: 14px;
         margin-bottom: 10px;
 }
 
-
 @media(min-width: 650px){
     .header__menu > ul {
         display: block !important;
 
-    }/*необходимо для того чтобы при расширении экрана элементы отображались в меню*/
+    } /*необходимо для того чтобы при расширении экрана элементы отображались в меню*/
 }
